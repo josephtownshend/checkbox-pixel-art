@@ -21,9 +21,11 @@
   color: #09d3ac;
 }
 
-/* .Row {
-  display: inline-block;
-} */
+.Row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 .Box {
   display: inline-block;
