@@ -21,6 +21,10 @@
   color: #09d3ac;
 }
 
+.Grid {
+  padding-top: 100px;
+}
+
 .Row {
   display: flex;
   align-items: center;
