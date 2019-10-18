@@ -5,8 +5,11 @@ import './App.css';
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <Checkbox />
+      <div class="Row">
+        <div class="Box"><Checkbox /></div>
+        <div class="Box"><Checkbox /></div>
+        <div class="Box"><Checkbox /></div>
+        <div class="Box"><Checkbox /></div>
       </div>
     );
   }
