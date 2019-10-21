@@ -127,6 +127,9 @@ class App extends Component {
             <div className="Box"><Checkbox /></div>
             <div className="Box"><Checkbox /></div>
           </div>
+          <div>
+            <button>reset</button>
+          </div>
         </div>
       </React.Fragment>
     );
