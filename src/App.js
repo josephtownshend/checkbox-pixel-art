@@ -4,23 +4,28 @@ import './App.css';
 
 class App extends Component {
 
-  // state = {
-  //   checked: null
-  // }
-  //
-  // resetCheckbox = () => {
-  //   console.log(this.state);
-  //   this.setState({
-  //     checked: this.state.checked = false
-  //   });
-  //     console.log(this.state);
-  // };
+  state = {
+    checked: null
+  }
+
+  resetCheckbox = () => {
+    console.log(this.state);
+    this.setState({
+      checked: false
+    });
+      console.log(this.state);
+  };
 
   render() {
     return (
+      <React.Fragment>
       <div className="App">
         <Checkbox />
+        <button onClick={this.resetCheckbox}>button</button>
       </div>
+
+
+    </React.Fragment>
     );
   }
 }
