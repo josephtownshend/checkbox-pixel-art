@@ -5,13 +5,13 @@ import './App.css';
 class App extends Component {
 
   state = {
-    checked: false
+    checked: null
   }
 
   resetCheckbox = () => {
     console.log(this.state);
     this.setState({
-      checked: this.state.checked = true
+      checked: this.state.checked = false
     });
       console.log(this.state);
   };
